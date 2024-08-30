@@ -14,6 +14,7 @@
   ## 2. Insertion Sort :
   - **Idea :** Pick an element from unsorted part and place it correctly in sortd part .
   - **Pseudo Code :**
+           
                        for(int i = 0 ; i < n ; i++){  
                             int curr = arr[i] ;  
                             prev = i-1;  
