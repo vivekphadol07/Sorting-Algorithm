@@ -2,13 +2,13 @@
 ## 1. Bubble Sort :
 - **Idea :** Large element  come to end by swapping with adjacent.  
 - **Pseudo Code :**  
-                        for(int i = 0 ; i < n ; i++){  
-                            for(int j = 0 ; j < n ; j++){  
-                                if(arr[j] > arr[j+1]){  
-                                    swap(arr[j] , arr[j+1]);  
-                                }  
-                            }  
-                        }
+                        for(int i = 0 ; i < n ; i++){      
+                            for(int j = 0 ; j < n ; j++){        
+                                if(arr[j] > arr[j+1]){          
+                                    swap(arr[j] , arr[j+1]);      
+                                }        
+                            }        
+                        }        
 
   ## 2. Insertion Sort :
   - **Idea :** Pick an element from unsorted part and place it correctly in sortd part .
