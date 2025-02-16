@@ -65,7 +65,7 @@
 
 ## 5. Merge Sort :
 -  **Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
-  -**Divide:** Split the array into two halves recursively until each subarray contains only one element.      
+          1) **Divide:** Split the array into two halves recursively until each subarray contains only one element.      
           2) **Conquer:** Merge the sorted subarrays back together by comparing elements and placing them in order.      
           3) **Combine:** Continue merging until the entire array is sorted.      
 - **Pseudo Code :**
