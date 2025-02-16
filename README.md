@@ -56,5 +56,34 @@
                       }
 
 
-    
+## 4. Merge Sort :
+  -**Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
+        -Divide: Split the array into two halves recursively until each subarray contains only one element.      
+        -Conquer: Merge the sorted subarrays back together by comparing elements and placing them in order.      
+        -Combine: Continue merging until the entire array is sorted.      
+  - **Pseudo Code :**
+            
+                    MERGE_SORT(A, left, right):    
+                    if left < right:    
+                        mid = (left + right) / 2    
+                        MERGE_SORT(A, left, mid)   // Sort left half  
+                        MERGE_SORT(A, mid+1, right) // Sort right half  
+                        MERGE(A, left, mid, right)  // Merge both halves  
+                        
+                    MERGE(A, left, mid, right):    
+                        Create temp arrays L[] = A[left...mid] and R[] = A[mid+1...right]    
+                        i = 0, j = 0, k = left    
+                            
+                        while i < size(L) and j < size(R):    
+                            if L[i] ≤ R[j]:    
+                                A[k] = L[i]    
+                                i = i + 1
+                            else:    
+                                A[k] = R[j]    
+                                j = j + 1    
+                            k = k + 1    
+                                  
+                        Copy remaining elements of L[] (if any) to A    
+                        Copy remaining elements of R[] (if any) to A    
+
            
