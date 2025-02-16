@@ -25,7 +25,7 @@
                        }
 
   ## 3. Selection Sort :
-  -**Idea :** Pick the smallest from unsorted and put in the beginning.
+  -  **Idea :** Pick the smallest from unsorted and put in the beginning.
   - **Pseudo Code :**
            
                        for(int i = 0 ; i < n ; i++){  
@@ -39,7 +39,7 @@
                        }
 
  ## 4. Counting Sort :
-  -**Idea :** Use a frequency count of elements from min to max.
+  -  **Idea :** Use a frequency count of elements from min to max.
   - **Pseudo Code :**
 
                       for (int num : arr){         
@@ -57,10 +57,10 @@
 
 
 ## 4. Merge Sort :
-  -**Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
-        --Divide: Split the array into two halves recursively until each subarray contains only one element.      
-        --Conquer: Merge the sorted subarrays back together by comparing elements and placing them in order.      
-        --Combine: Continue merging until the entire array is sorted.      
+  -  **Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
+          - Divide: Split the array into two halves recursively until each subarray contains only one element.      
+          - Conquer: Merge the sorted subarrays back together by comparing elements and placing them in order.      
+          - Combine: Continue merging until the entire array is sorted.      
   - **Pseudo Code :**
             
                     MERGE_SORT(A, left, right):    
