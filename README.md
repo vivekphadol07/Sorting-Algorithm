@@ -24,4 +24,17 @@
                             }    
                        }
 
-  ##
+  ## 3. Selection Sort :
+  -**Idea :** Pick the smallest from unsorted and put in the beginning.
+  - **Pseudo Code :**
+           
+                       for(int i = 0 ; i < n ; i++){  
+                            mididx = i;     
+                            for(int i = 0 ; i < n-1; i++){    
+                                  if(arr[j] < arr[minidx]){
+                                      minidx = j;
+                                  }
+                                 swap(arr[i], arr[minidx]);        
+                            }    
+                       }
+
