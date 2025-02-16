@@ -13,9 +13,9 @@
 
 - **Time Complexity :** Best, Average, Worst: O(n^2)             
 
-  ## 2. Insertion Sort :
-  - **Idea :** Pick an element from unsorted part and place it correctly in sortd part .
-  - **Pseudo Code :**
+## 2. Insertion Sort :
+- **Idea :** Pick an element from unsorted part and place it correctly in sortd part .
+- **Pseudo Code :**
            
                        for(int i = 0 ; i < n ; i++){  
                             int curr = arr[i] ;  
@@ -28,9 +28,9 @@
 
 - **Time Complexity :** Best, Average, Worst: O(n^2)    
 
-  ## 3. Selection Sort :
-  -  **Idea :** Pick the smallest from unsorted and put in the beginning.
-  - **Pseudo Code :**
+## 3. Selection Sort :
+-  **Idea :** Pick the smallest from unsorted and put in the beginning.
+- **Pseudo Code :**
            
                        for(int i = 0 ; i < n ; i++){  
                             mididx = i;     
@@ -64,11 +64,11 @@
 - **Time Complexity :** Best, Average, Worst: O(n + k)      
 
 ## 5. Merge Sort :
-  -  **Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
-          1) **Divide:** Split the array into two halves recursively until each subarray contains only one element.      
+-  **Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
+  -**Divide:** Split the array into two halves recursively until each subarray contains only one element.      
           2) **Conquer:** Merge the sorted subarrays back together by comparing elements and placing them in order.      
           3) **Combine:** Continue merging until the entire array is sorted.      
-  - **Pseudo Code :**
+- **Pseudo Code :**
             
                     MERGE_SORT(A, left, right):    
                     if left < right:    
@@ -93,14 +93,14 @@
                         Copy remaining elements of L[] (if any) to A    
                         Copy remaining elements of R[] (if any) to A  
 
-- **Time Complexity :** Best, Average, Worst: O(n log n)      
-
- ## 6. Quick Sort :
-  -  **Idea :** Quick Sort is a divide and conquer algorithm that works as follows:
-             1) **Partition:** Choose a pivot element and rearrange the array so that elements less than the pivot are on the left and greater than the pivot are on the right.
+- **Time Complexity :** Best, Average, Worst: O(n log n)
+       
+## 6. Quick Sort :
+-  **Idea :** Quick Sort is a divide and conquer algorithm that works as follows:
+             1) **Partition:** Choose a pivot element and rearrange the array so that elements less than the pivot are on the left and greater than the pivot are                               on the right.
              2) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
              3) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
-  - **Pseudo Code :**
+- **Pseudo Code :**
 
                                QUICK_SORT(A, low, high):          
                                   if low < high:    
