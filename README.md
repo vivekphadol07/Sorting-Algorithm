@@ -9,7 +9,9 @@
                                     swap(arr[j] , arr[j+1]);      
                                 }        
                             }        
-                        }        
+                        }
+
+  - **Time Complexity :** Best, Average, Worst: O(n^2)             
 
   ## 2. Insertion Sort :
   - **Idea :** Pick an element from unsorted part and place it correctly in sortd part .
@@ -24,6 +26,8 @@
                             }    
                        }
 
+    - **Time Complexity :** Best, Average, Worst: O(n^2)    
+
   ## 3. Selection Sort :
   -  **Idea :** Pick the smallest from unsorted and put in the beginning.
   - **Pseudo Code :**
@@ -37,6 +41,8 @@
                                  swap(arr[i], arr[minidx]);        
                             }    
                        }
+
+    - **Time Complexity :** Best, Average, Worst: O(n^2)              
 
  ## 4. Counting Sort :
   -  **Idea :** Use a frequency count of elements from min to max.
@@ -54,13 +60,14 @@
                           output[count[arr[i]] - 1] = arr[i];    
                           count[arr[i]]--;    
                       }
-
+        
+- **Time Complexity :** Best, Average, Worst: O(n + k)      
 
 ## 4. Merge Sort :
   -  **Idea :** Merge Sort is a divide and conquer algorithm that works as follows:      
-          - 1) **Divide:** Split the array into two halves recursively until each subarray contains only one element.      
-          - 2) **Conquer:** Merge the sorted subarrays back together by comparing elements and placing them in order.      
-          - 3) **Combine:** Continue merging until the entire array is sorted.      
+          1) **Divide:** Split the array into two halves recursively until each subarray contains only one element.      
+          2) **Conquer:** Merge the sorted subarrays back together by comparing elements and placing them in order.      
+          3) **Combine:** Continue merging until the entire array is sorted.      
   - **Pseudo Code :**
             
                     MERGE_SORT(A, left, right):    
@@ -84,15 +91,15 @@
                             k = k + 1    
                                   
                         Copy remaining elements of L[] (if any) to A    
-                        Copy remaining elements of R[] (if any) to A
+                        Copy remaining elements of R[] (if any) to A  
 
-
+- **Time Complexity :** Best, Average, Worst: O(n log n)      
 
  ## 4. Quick Sort :
   -  **Idea :** Quick Sort is a divide and conquer algorithm that works as follows:
-            - 1) **Partition:** Choose a pivot element and rearrange the array so that elements less than the pivot are on the left and greater than the pivot are on the right.
-            - 2) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
-            - 3) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
+             1) **Partition:** Choose a pivot element and rearrange the array so that elements less than the pivot are on the left and greater than the pivot are on the right.
+             2) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
+             3) **Recursively Sort:** Apply Quick Sort on the left and right subarrays.
   - **Pseudo Code :**
 
                                QUICK_SORT(A, low, high):          
@@ -112,12 +119,14 @@
                                   
                                   Swap A[i + 1] and A[high]  // Place pivot at correct position    
                                   return i + 1  // New pivot index
+          
+    - **Time Complexity :** Best, Average, Worst: O(n log n)      
 
     
 ## 4. Heap Sort :
   -  **Idea :** Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It works in two main steps:    
-            - 1) **Build a Max Heap:** Convert the unsorted array into a max heap (a complete binary tree where the root is the largest element).      
-            - 2) **Sort by Extracting Maximum:** Repeatedly swap the root (largest element) with the last element, then heapify the reduced heap until the array is sorted.        
+             1) **Build a Max Heap:** Convert the unsorted array into a max heap (a complete binary tree where the root is the largest element).      
+             2) **Sort by Extracting Maximum:** Repeatedly swap the root (largest element) with the last element, then heapify the reduced heap until the array is sorted.        
   - **Pseudo Code :**
 
                             HEAP_SORT(A):    
@@ -142,4 +151,5 @@
                                 if largest ≠ i:
                                     Swap A[i] and A[largest]
                                     HEAPIFY(A, largest, n)  // Recursively heapify affected subtree
+    - **Time Complexity :** Best, Average, Worst: O(n log n)      
 
