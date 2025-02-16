@@ -151,5 +151,5 @@
                                     Swap A[i] and A[largest]
                                     HEAPIFY(A, largest, n)  // Recursively heapify affected subtree
         
-  - **Time Complexity :** Best, Average, Worst: O(n log n)      
+- **Time Complexity :** Best, Average, Worst: O(n log n)      
 
