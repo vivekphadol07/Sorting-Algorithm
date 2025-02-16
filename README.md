@@ -122,12 +122,11 @@
           
 - **Time Complexity :** Best, Average, Worst: O(n log n)      
 
-    
 ## 7. Heap Sort :
-  -  **Idea :** Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It works in two main steps:    
+-  **Idea :** Heap Sort is a comparison-based sorting algorithm that uses a binary heap data structure. It works in two main steps:    
              1) **Build a Max Heap:** Convert the unsorted array into a max heap (a complete binary tree where the root is the largest element).      
              2) **Sort by Extracting Maximum:** Repeatedly swap the root (largest element) with the last element, then heapify the reduced heap until the array is sorted.        
-  - **Pseudo Code :**
+- **Pseudo Code :**
 
                             HEAP_SORT(A):    
                             BUILD_MAX_HEAP(A)  
@@ -152,5 +151,5 @@
                                     Swap A[i] and A[largest]
                                     HEAPIFY(A, largest, n)  // Recursively heapify affected subtree
         
-    - **Time Complexity :** Best, Average, Worst: O(n log n)      
+  - **Time Complexity :** Best, Average, Worst: O(n log n)      
 
